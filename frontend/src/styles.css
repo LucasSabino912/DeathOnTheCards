@@ -1,0 +1,46 @@
+.pantalla-creacion {
+  @apply fixed inset-0 
+         bg-black bg-[url('/bg-login.png')] 
+         bg-no-repeat bg-cover bg-center
+         flex items-center justify-end;
+}
+
+.form-container {
+  @apply p-8 rounded-2xl w-[480px]
+         flex flex-col gap-8 items-start;
+}
+
+.error-message {
+  @apply text-red-500 mt-4 font-[Limelight] text-base;
+}
+
+.nombre-partida-input {
+  @apply w-full px-4 py-2 border-2 rounded-lg mt-2
+         border-[#825012] bg-[#3D0800] text-white
+         focus:outline-none focus:ring-2 focus:ring-yellow-500;
+}
+
+.cantidad-jugadores-container {
+  @apply flex flex-row gap-2 mt-2;
+}
+
+/* Botones */
+.btn-cantidad-jugador {
+  @apply w-10 h-10 border-2 rounded-lg font-[Limelight] cursor-pointer
+         flex items-center justify-center
+         border-[#825012] bg-[#3D0800] text-[#B49150]
+         hover:bg-[#4d1008] hover:text-yellow-400
+         focus:ring-2 focus:ring-yellow-500;
+}
+
+.btn-cantidad-jugador-activo {
+  @apply bg-[#FFD700] text-black border-[#B49150]
+         hover:bg-[#FFD700] hover:text-black;
+}
+
+.btn-continuar {
+  @apply bg-[#3D0800] text-[#B49150] border-2 border-[#825012]
+         px-5 py-2.5 rounded-xl font-[Limelight] cursor-pointer
+         hover:bg-[#4d1008] hover:text-yellow-400
+         focus:ring-2 focus:ring-yellow-500;
+}

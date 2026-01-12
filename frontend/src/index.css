@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Limelight', cursive !important;
+}
